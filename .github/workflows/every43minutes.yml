@@ -9,7 +9,7 @@ jobs:
   call-api-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Call Supabase GET Function 'qtsquery'
+      - name: Call Supabase GET Function 'gradespark'
         run: |
-          curl -f -L -X GET 'https://sdotduqwsbchazihiiza.supabase.co/functions/v1/runquery' \
+          curl -f -L -X GET 'https://qzwfyjuathzorckzthcy.supabase.co/functions/v1/gradespark' \
             -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}"
